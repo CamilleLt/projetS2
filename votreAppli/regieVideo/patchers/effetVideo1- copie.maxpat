@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 664.0, 261.0, 1394.0, 857.0 ],
+		"rect" : [ 567.0, 91.0, 1394.0, 857.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 652.0, 13.0, 156.0, 20.0 ],
+					"style" : "",
+					"text" : "Sons de sinchronisation"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "toggle",
@@ -105,6 +117,7 @@
 						"clips" : [ 							{
 								"filename" : "isthatyou.aiff",
 								"filekind" : "audiofile",
+								"selection" : [ 0.221154, 0.355769 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"slurtime" : [ 0.0 ],
@@ -147,7 +160,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 240.5, 314.0, 26.0, 22.0 ],
+					"patching_rect" : [ 240.5, 314.0, 27.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -312,12 +325,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-20",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.0, 31.0, 79.0, 20.0 ],
+					"patching_rect" : [ 190.0, 31.0, 79.0, 47.0 ],
 					"style" : "",
-					"text" : "VIDEO DRY"
+					"text" : "VIDEO DRY, Connexion lecteur Anaïs"
 				}
 
 			}
