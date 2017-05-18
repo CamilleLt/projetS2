@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 149.0, 323.0, 1612.0, 857.0 ],
+		"rect" : [ 135.0, 79.0, 1612.0, 857.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 531.0, 413.0, 73.0, 22.0 ],
+					"style" : "",
+					"text" : "colorimetrie"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "toggle",
@@ -104,7 +117,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 23.0, 116.0, 73.0, 22.0 ],
 					"style" : "",
 					"text" : "colorimetrie"
@@ -295,19 +308,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-33",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 440.0, 389.0, 156.0, 33.0 ],
-					"style" : "",
-					"text" : "DECALAGE ROUGE VERS DROITE"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-31",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -343,23 +343,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1032.0, 373.0, 31.0, 23.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "offset_x",
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-25",
-					"lock" : 1,
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 562.0, 394.0, 34.0, 23.0 ],
 					"style" : ""
 				}
 
@@ -497,19 +480,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 562.0, 424.0, 43.0, 22.0 ],
-					"style" : "",
-					"text" : "jit.rota"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -524,7 +494,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
+					"destination" : [ "obj-9", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
@@ -609,15 +579,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-25", 0 ]
 				}
 
 			}
