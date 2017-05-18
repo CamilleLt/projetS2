@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1612.0, 857.0 ],
+		"rect" : [ 34.0, 672.0, 1612.0, 857.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 844.0, 59.5, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -54,7 +54,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -67,11 +67,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 553.5, 92.5, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -586,7 +586,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-54", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
@@ -687,26 +687,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-3::obj-13" : [ "flonum", "flonum", 0 ],
-			"obj-3::obj-16" : [ "flonum[1]", "flonum[1]", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "isthatyou.aiff",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/media",
-				"type" : "AIFF",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "detectionEnveloppe.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
