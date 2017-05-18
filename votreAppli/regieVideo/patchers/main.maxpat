@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 353.0, 276.0, 1612.0, 857.0 ],
+		"rect" : [ 34.0, 323.0, 1612.0, 857.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-9",
+					"id" : "obj-7",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 668.0, 434.0, 112.0, 22.0 ],
+					"patching_rect" : [ 1161.0, 235.0, 112.0, 22.0 ],
+					"style" : "",
+					"text" : "effetVideo3.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 704.0, 429.0, 112.0, 22.0 ],
 					"style" : "",
 					"text" : "effetVideo2.maxpat"
 				}
@@ -51,12 +64,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-7",
+					"id" : "obj-11",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 192.0, 199.0, 112.0, 22.0 ],
+					"patching_rect" : [ 249.0, 206.0, 112.0, 22.0 ],
 					"style" : "",
 					"text" : "effetVideo1.maxpat"
 				}
@@ -176,7 +189,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
@@ -194,6 +207,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -203,7 +225,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
@@ -212,7 +243,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
@@ -221,7 +252,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
@@ -237,21 +268,14 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
-			"obj-9::obj-3::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
-			"obj-9::obj-3::obj-13" : [ "flonum[3]", "flonum", 0 ],
-			"obj-7::obj-3::obj-13" : [ "flonum", "flonum", 0 ],
-			"obj-7::obj-3::obj-16" : [ "flonum[1]", "flonum[1]", 0 ]
+			"obj-7::obj-3::obj-13" : [ "flonum[5]", "flonum", 0 ],
+			"obj-7::obj-3::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
+			"obj-13::obj-3::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
+			"obj-13::obj-3::obj-13" : [ "flonum[3]", "flonum", 0 ],
+			"obj-11::obj-3::obj-13" : [ "flonum", "flonum", 0 ],
+			"obj-11::obj-3::obj-16" : [ "flonum[1]", "flonum[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -280,6 +304,12 @@
 			}
 , 			{
 				"name" : "effetVideo2.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "effetVideo3.maxpat",
 				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1

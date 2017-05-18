@@ -2,7 +2,7 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -717009959,
+	"modificationdate" : -717008516,
 	"viewrect" : [ 3.0, 59.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -22,6 +22,21 @@
 			}
 ,
 			"lecteurVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"colorimetrie.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"niveauDeGris.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"effetVideo3.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
