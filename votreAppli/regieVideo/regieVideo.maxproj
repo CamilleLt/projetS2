@@ -2,8 +2,8 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -717792921,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"modificationdate" : -717009959,
+	"viewrect" : [ 3.0, 59.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,12 +16,17 @@
 				"toplevel" : 1
 			}
 ,
+			"effetVideo2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"lecteurVideo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"effetVideo1- copie.maxpat" : 			{
+			"effetVideo1.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
