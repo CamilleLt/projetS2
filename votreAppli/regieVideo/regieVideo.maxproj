@@ -2,8 +2,8 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -716663929,
-	"viewrect" : [ 9.0, 64.0, 222.0, 891.0 ],
+	"modificationdate" : -716659850,
+	"viewrect" : [ 98.0, 169.0, 365.0, 650.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,12 +16,17 @@
 				"toplevel" : 1
 			}
 ,
-			"moduleReceptionAudio.maxpat" : 			{
+			"recadrage.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"lecteurVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"moduleReceptionAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
