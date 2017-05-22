@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 828.0, 146.0, 1612.0, 857.0 ],
+		"rect" : [ 34.0, 149.0, 1612.0, 857.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -545,7 +545,7 @@
 			}
 , 			{
 				"name" : "isthatyou.aiff",
-				"bootpath" : "C74:/docs/tutorial-patchers/msp-tut",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/media",
 				"type" : "AIFF",
 				"implicit" : 1
 			}

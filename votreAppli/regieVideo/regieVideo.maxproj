@@ -2,8 +2,8 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -716659850,
-	"viewrect" : [ 98.0, 169.0, 365.0, 650.0 ],
+	"modificationdate" : -716657780,
+	"viewrect" : [ -47.0, 169.0, 365.0, 650.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,12 +16,12 @@
 				"toplevel" : 1
 			}
 ,
-			"recadrage.maxpat" : 			{
+			"lecteurVideo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"lecteurVideo.maxpat" : 			{
+			"ModuleAnalyseAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -31,12 +31,7 @@
 				"local" : 1
 			}
 ,
-			"effetVideo4.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"effetVideo1.maxpat" : 			{
+			"effetVideo3.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -46,7 +41,7 @@
 				"local" : 1
 			}
 ,
-			"ModuleAnalyseAudio.maxpat" : 			{
+			"colorimetrie.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -61,12 +56,17 @@
 				"local" : 1
 			}
 ,
-			"effetVideo3.maxpat" : 			{
+			"effetVideo1.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"colorimetrie.maxpat" : 			{
+			"effetVideo4.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"recadrage.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

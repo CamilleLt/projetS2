@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 105.0, 1612.0, 857.0 ],
+		"rect" : [ -107.0, 178.0, 1612.0, 857.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -97,7 +97,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 829.0, 44.5, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -172,7 +172,7 @@
 						"clips" : [ 							{
 								"filename" : "isthatyou.aiff",
 								"filekind" : "audiofile",
-								"selection" : [ 0.096154, 0.653846 ],
+								"selection" : [ 0.067308, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"slurtime" : [ 0.0 ],
@@ -215,7 +215,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1020.5, 279.0, 117.0, 22.0 ],
+					"patching_rect" : [ 1020.5, 279.0, 118.0, 22.0 ],
 					"style" : ""
 				}
 
