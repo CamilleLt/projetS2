@@ -2,7 +2,7 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -717000992,
+	"modificationdate" : -716665583,
 	"viewrect" : [ 9.0, 64.0, 222.0, 891.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -16,7 +16,7 @@
 				"toplevel" : 1
 			}
 ,
-			"effetVideo2.maxpat" : 			{
+			"effetVideo4.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -26,7 +26,17 @@
 				"local" : 1
 			}
 ,
-			"colorimetrie.maxpat" : 			{
+			"effetVideo1.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"detectionEnveloppe.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"effetVideo2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -41,12 +51,7 @@
 				"local" : 1
 			}
 ,
-			"effetVideo1.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"detectionEnveloppe.maxpat" : 			{
+			"colorimetrie.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

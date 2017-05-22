@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 167.0, 328.0, 1612.0, 857.0 ],
+		"rect" : [ 115.0, 524.0, 1612.0, 857.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,62 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 924.0, 188.0, 112.0, 22.0 ],
+					"style" : "",
+					"text" : "effetVideo4.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 887.0, 113.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "jit.pwindow",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 932.0, 235.0, 176.0, 122.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 885.0, 157.0, 172.0, 22.0 ],
+					"style" : "",
+					"text" : "lecteurVideo.maxpat pooof.jpg"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1161.0, 235.0, 112.0, 22.0 ],
+					"patching_rect" : [ 689.0, 197.0, 112.0, 22.0 ],
 					"style" : "",
 					"text" : "effetVideo3.maxpat"
 				}
@@ -56,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 704.0, 429.0, 112.0, 22.0 ],
+					"patching_rect" : [ 392.0, 188.0, 112.0, 22.0 ],
 					"style" : "",
 					"text" : "effetVideo2.maxpat"
 				}
@@ -69,7 +119,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 249.0, 206.0, 112.0, 22.0 ],
+					"patching_rect" : [ 148.0, 180.0, 112.0, 22.0 ],
 					"style" : "",
 					"text" : "effetVideo1.maxpat"
 				}
@@ -83,7 +133,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 614.0, 316.0, 24.0, 24.0 ],
+					"patching_rect" : [ 302.0, 75.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -96,7 +146,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1121.0, 151.0, 24.0, 24.0 ],
+					"patching_rect" : [ 649.0, 113.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -109,7 +159,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 218.5, 88.0, 24.0, 24.0 ],
+					"patching_rect" : [ 117.5, 62.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -121,7 +171,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 711.0, 476.0, 176.0, 122.0 ]
+					"patching_rect" : [ 399.0, 235.0, 176.0, 122.0 ]
 				}
 
 			}
@@ -132,7 +182,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 632.0, 391.0, 204.0, 22.0 ],
+					"patching_rect" : [ 320.0, 150.0, 204.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurVideo.maxpat pow-500pix.jpg"
 				}
@@ -145,7 +195,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1166.0, 273.0, 176.0, 122.0 ]
+					"patching_rect" : [ 694.0, 235.0, 176.0, 122.0 ]
 				}
 
 			}
@@ -156,7 +206,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1119.0, 195.0, 172.0, 22.0 ],
+					"patching_rect" : [ 647.0, 157.0, 172.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurVideo.maxpat pooof.jpg"
 				}
@@ -169,7 +219,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 228.5, 261.0, 176.0, 122.0 ]
+					"patching_rect" : [ 127.5, 235.0, 176.0, 122.0 ]
 				}
 
 			}
@@ -180,7 +230,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 167.0, 148.0, 168.0, 22.0 ],
+					"patching_rect" : [ 66.0, 122.0, 168.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurVideo.maxpat grrrrr.jpg"
 				}
@@ -234,6 +284,33 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -264,17 +341,6 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -284,8 +350,10 @@
 			"obj-7::obj-3::obj-13" : [ "flonum[5]", "flonum", 0 ],
 			"obj-7::obj-3::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
 			"obj-13::obj-3::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
+			"obj-17::obj-3::obj-16" : [ "flonum[7]", "flonum[1]", 0 ],
 			"obj-13::obj-3::obj-13" : [ "flonum[3]", "flonum", 0 ],
 			"obj-11::obj-3::obj-13" : [ "flonum", "flonum", 0 ],
+			"obj-17::obj-3::obj-13" : [ "flonum[8]", "flonum", 0 ],
 			"obj-11::obj-3::obj-16" : [ "flonum[1]", "flonum[1]", 0 ]
 		}
 ,
@@ -333,6 +401,12 @@
 			}
 , 			{
 				"name" : "colorimetrie.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "effetVideo4.maxpat",
 				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
