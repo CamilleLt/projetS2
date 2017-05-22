@@ -2,8 +2,8 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -716664488,
-	"viewrect" : [ 35.0, 416.0, 300.0, 500.0 ],
+	"modificationdate" : -716662875,
+	"viewrect" : [ 1246.0, 343.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,11 +14,6 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
-			}
-,
-			"moduleReceptionAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
 			}
 ,
 			"lecteurVideo.maxpat" : 			{
@@ -76,6 +71,26 @@
 ,
 			"smack.jpg" : 			{
 				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"VRAI SMACK.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"GRRRRR.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"CRACK.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"BANG.mp3" : 			{
+				"kind" : "audiofile",
 				"local" : 1
 			}
 

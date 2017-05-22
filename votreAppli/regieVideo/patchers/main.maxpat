@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 448.0, 321.0, 1156.0, 775.0 ],
+		"rect" : [ 674.0, 108.0, 865.0, 761.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,25 +38,247 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "comment",
+					"id" : "obj-53",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1020.0, 46.0, 150.0, 20.0 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 665.0, 229.0, 158.0, 22.0 ],
 					"style" : "",
-					"text" : "mettre le port de l'audio"
+					"text" : "detectionEnveloppe.maxpat"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-17",
+					"id" : "obj-52",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 794.0, 46.0, 207.0, 22.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 269.0, 223.0, 158.0, 22.0 ],
 					"style" : "",
-					"text" : "moduleReceptionAudio.maxpat 8002"
+					"text" : "detectionEnveloppe.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "VRAI SMACK.mp3",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"followglobaltempo" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"originallengthms" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"slurtime" : [ 0.0 ],
+									"basictuning" : [ 440 ],
+									"mode" : [ "basic" ],
+									"pitchshift" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-51",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 47.0, 154.0, 150.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "GRRRRR.mp3",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"followglobaltempo" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"originallengthms" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"slurtime" : [ 0.0 ],
+									"basictuning" : [ 440 ],
+									"mode" : [ "basic" ],
+									"pitchshift" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-49",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 665.0, 166.0, 150.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "CRACK.mp3",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"followglobaltempo" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"originallengthms" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"slurtime" : [ 0.0 ],
+									"basictuning" : [ 440 ],
+									"mode" : [ "basic" ],
+									"pitchshift" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-47",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 269.0, 154.0, 150.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "BANG.mp3",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"followglobaltempo" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"originallengthms" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"slurtime" : [ 0.0 ],
+									"basictuning" : [ 440 ],
+									"mode" : [ "basic" ],
+									"pitchshift" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-45",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 469.0, 166.0, 150.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-22",
+					"maxclass" : "number~",
+					"mode" : 2,
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "float" ],
+					"patching_rect" : [ 651.0, 290.0, 128.0, 22.0 ],
+					"sig" : 0.0,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-19",
+					"maxclass" : "number~",
+					"mode" : 2,
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "float" ],
+					"patching_rect" : [ 462.0, 283.0, 128.0, 22.0 ],
+					"sig" : 0.0,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 458.5, 229.0, 164.0, 22.0 ],
+					"style" : "",
+					"text" : "ModuleAnalyseAudio.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "number~",
+					"mode" : 2,
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "float" ],
+					"patching_rect" : [ 269.0, 283.0, 128.0, 22.0 ],
+					"sig" : 0.0,
+					"style" : ""
 				}
 
 			}
@@ -68,7 +290,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 595.5, 110.0, 24.0, 24.0 ],
+					"patching_rect" : [ 598.5, 407.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -80,7 +302,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 635.0, 213.0, 176.0, 122.0 ]
+					"patching_rect" : [ 638.0, 510.0, 176.0, 122.0 ]
 				}
 
 			}
@@ -91,7 +313,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 564.0, 164.0, 160.0, 22.0 ],
+					"patching_rect" : [ 567.0, 461.0, 160.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurVideo.maxpat grrr.jpg"
 				}
@@ -108,47 +330,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 38.0, 142.0, 128.0, 22.0 ],
+					"patching_rect" : [ 47.0, 283.0, 128.0, 22.0 ],
 					"sig" : 0.0,
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "eroica.aiff",
-								"filekind" : "audiofile",
-								"loop" : 1,
-								"content_state" : 								{
-									"slurtime" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"timestretch" : [ 0 ],
-									"mode" : [ "basic" ],
-									"formant" : [ 1.0 ],
-									"pitchcorrection" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"formantcorrection" : [ 0 ],
-									"originaltempo" : [ 120.0 ],
-									"pitchshift" : [ 1.0 ],
-									"speed" : [ 1.0 ],
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"play" : [ 0 ],
-									"quality" : [ "basic" ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-14",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 85.0, 6.0, 150.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -160,7 +343,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 52.0, 68.0, 164.0, 22.0 ],
+					"patching_rect" : [ 47.0, 223.0, 164.0, 22.0 ],
 					"style" : "",
 					"text" : "ModuleAnalyseAudio.maxpat"
 				}
@@ -174,7 +357,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 165.0, 504.0, 24.0, 24.0 ],
+					"patching_rect" : [ 33.0, 510.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -187,7 +370,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 406.0, 222.0, 24.0, 24.0 ],
+					"patching_rect" : [ 390.0, 470.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -200,7 +383,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 196.5, 276.0, 24.0, 24.0 ],
+					"patching_rect" : [ 252.5, 497.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -212,7 +395,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 184.0, 602.0, 176.0, 122.0 ]
+					"patching_rect" : [ 24.0, 600.0, 176.0, 122.0 ]
 				}
 
 			}
@@ -223,7 +406,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 156.0, 545.0, 177.0, 22.0 ],
+					"patching_rect" : [ 24.0, 551.0, 177.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurVideo.maxpat smack.jpg"
 				}
@@ -236,7 +419,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 440.0, 348.0, 176.0, 122.0 ]
+					"patching_rect" : [ 424.0, 596.0, 176.0, 122.0 ]
 				}
 
 			}
@@ -247,7 +430,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 429.0, 278.0, 173.0, 22.0 ],
+					"patching_rect" : [ 413.0, 526.0, 173.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurVideo.maxpat bang.png"
 				}
@@ -260,7 +443,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 236.0, 379.0, 176.0, 122.0 ]
+					"patching_rect" : [ 221.0, 600.0, 176.0, 122.0 ]
 				}
 
 			}
@@ -271,7 +454,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 165.0, 330.0, 171.0, 22.0 ],
+					"patching_rect" : [ 221.0, 551.0, 171.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurVideo.maxpat crack.jpg"
 				}
@@ -316,15 +499,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -334,10 +508,73 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-53", 0 ]
 				}
 
 			}
@@ -370,68 +607,110 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-7::obj-4::obj-8::obj-19::obj-16" : [ "flonum[5]", "flonum[1]", 0 ],
-			"obj-7::obj-4::obj-24::obj-19::obj-16" : [ "flonum[10]", "flonum[1]", 0 ],
-			"obj-7::obj-4::obj-18::obj-19::obj-13" : [ "flonum[17]", "flonum", 0 ],
-			"obj-7::obj-4::obj-8::obj-19::obj-13" : [ "flonum[4]", "flonum", 0 ],
-			"obj-7::obj-4::obj-22::obj-19::obj-13" : [ "flonum[13]", "flonum", 0 ],
-			"obj-7::obj-4::obj-18::obj-19::obj-16" : [ "flonum[16]", "flonum[1]", 0 ],
-			"obj-7::obj-4::obj-6::obj-19::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
-			"obj-7::obj-4::obj-10::obj-19::obj-16" : [ "flonum[7]", "flonum[1]", 0 ],
-			"obj-7::obj-4::obj-10::obj-19::obj-13" : [ "flonum[6]", "flonum", 0 ],
-			"obj-7::obj-4::obj-22::obj-19::obj-16" : [ "flonum[12]", "flonum[1]", 0 ],
-			"obj-7::obj-4::obj-16::obj-19::obj-16" : [ "flonum[19]", "flonum[1]", 0 ],
-			"obj-7::obj-4::obj-6::obj-19::obj-13" : [ "flonum[3]", "flonum", 0 ],
-			"obj-7::obj-4::obj-14::obj-19::obj-16" : [ "flonum[9]", "flonum[1]", 0 ],
-			"obj-7::obj-4::obj-20::obj-19::obj-16" : [ "flonum[14]", "flonum[1]", 0 ],
-			"obj-7::obj-4::obj-2::obj-19::obj-13" : [ "flonum", "flonum", 0 ],
 			"obj-7::obj-4::obj-16::obj-19::obj-13" : [ "flonum[18]", "flonum", 0 ],
-			"obj-7::obj-4::obj-14::obj-19::obj-13" : [ "flonum[8]", "flonum", 0 ],
+			"obj-21::obj-4::obj-22::obj-19::obj-13" : [ "flonum[47]", "flonum", 0 ],
+			"obj-7::obj-4::obj-22::obj-19::obj-13" : [ "flonum[13]", "flonum", 0 ],
+			"obj-21::obj-4::obj-24::obj-19::obj-13" : [ "flonum[49]", "flonum", 0 ],
+			"obj-7::obj-4::obj-14::obj-19::obj-16" : [ "flonum[9]", "flonum[1]", 0 ],
+			"obj-53::obj-13" : [ "flonum[74]", "flonum", 0 ],
+			"obj-7::obj-4::obj-6::obj-19::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
+			"obj-21::obj-4::obj-8::obj-19::obj-16" : [ "flonum[54]", "flonum[1]", 0 ],
+			"obj-7::obj-4::obj-2::obj-19::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
+			"obj-21::obj-4::obj-2::obj-19::obj-13" : [ "flonum[59]", "flonum", 0 ],
+			"obj-7::obj-4::obj-2::obj-19::obj-13" : [ "flonum", "flonum", 0 ],
+			"obj-7::obj-4::obj-16::obj-19::obj-16" : [ "flonum[19]", "flonum[1]", 0 ],
+			"obj-21::obj-4::obj-20::obj-19::obj-16" : [ "flonum[44]", "flonum[1]", 0 ],
+			"obj-7::obj-4::obj-18::obj-19::obj-16" : [ "flonum[16]", "flonum[1]", 0 ],
+			"obj-21::obj-4::obj-22::obj-19::obj-16" : [ "flonum[46]", "flonum[1]", 0 ],
+			"obj-7::obj-4::obj-22::obj-19::obj-16" : [ "flonum[12]", "flonum[1]", 0 ],
+			"obj-7::obj-4::obj-10::obj-19::obj-13" : [ "flonum[6]", "flonum", 0 ],
+			"obj-21::obj-4::obj-10::obj-19::obj-16" : [ "flonum[52]", "flonum[1]", 0 ],
+			"obj-7::obj-4::obj-6::obj-19::obj-13" : [ "flonum[3]", "flonum", 0 ],
+			"obj-21::obj-4::obj-6::obj-19::obj-13" : [ "flonum[57]", "flonum", 0 ],
+			"obj-52::obj-16" : [ "flonum[80]", "flonum[1]", 0 ],
+			"obj-21::obj-4::obj-18::obj-19::obj-16" : [ "flonum[42]", "flonum[1]", 0 ],
+			"obj-7::obj-4::obj-18::obj-19::obj-13" : [ "flonum[17]", "flonum", 0 ],
+			"obj-7::obj-4::obj-24::obj-19::obj-16" : [ "flonum[10]", "flonum[1]", 0 ],
+			"obj-21::obj-4::obj-14::obj-19::obj-16" : [ "flonum[50]", "flonum[1]", 0 ],
+			"obj-7::obj-4::obj-10::obj-19::obj-16" : [ "flonum[7]", "flonum[1]", 0 ],
+			"obj-21::obj-4::obj-8::obj-19::obj-13" : [ "flonum[55]", "flonum", 0 ],
+			"obj-52::obj-13" : [ "flonum[81]", "flonum", 0 ],
+			"obj-21::obj-4::obj-16::obj-19::obj-16" : [ "flonum[40]", "flonum[1]", 0 ],
+			"obj-53::obj-16" : [ "flonum[63]", "flonum[1]", 0 ],
+			"obj-21::obj-4::obj-20::obj-19::obj-13" : [ "flonum[45]", "flonum", 0 ],
+			"obj-7::obj-4::obj-20::obj-19::obj-16" : [ "flonum[14]", "flonum[1]", 0 ],
+			"obj-21::obj-4::obj-24::obj-19::obj-16" : [ "flonum[48]", "flonum[1]", 0 ],
 			"obj-7::obj-4::obj-24::obj-19::obj-13" : [ "flonum[11]", "flonum", 0 ],
+			"obj-7::obj-4::obj-8::obj-19::obj-13" : [ "flonum[4]", "flonum", 0 ],
+			"obj-21::obj-4::obj-10::obj-19::obj-13" : [ "flonum[53]", "flonum", 0 ],
+			"obj-21::obj-4::obj-2::obj-19::obj-16" : [ "flonum[58]", "flonum[1]", 0 ],
+			"obj-21::obj-4::obj-18::obj-19::obj-13" : [ "flonum[43]", "flonum", 0 ],
 			"obj-7::obj-4::obj-20::obj-19::obj-13" : [ "flonum[15]", "flonum", 0 ],
-			"obj-7::obj-4::obj-2::obj-19::obj-16" : [ "flonum[1]", "flonum[1]", 0 ]
+			"obj-7::obj-4::obj-14::obj-19::obj-13" : [ "flonum[8]", "flonum", 0 ],
+			"obj-21::obj-4::obj-14::obj-19::obj-13" : [ "flonum[51]", "flonum", 0 ],
+			"obj-7::obj-4::obj-8::obj-19::obj-16" : [ "flonum[5]", "flonum[1]", 0 ],
+			"obj-21::obj-4::obj-6::obj-19::obj-16" : [ "flonum[56]", "flonum[1]", 0 ],
+			"obj-21::obj-4::obj-16::obj-19::obj-13" : [ "flonum[41]", "flonum", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "lecteurVideo.maxpat",
-				"bootpath" : "~/Downloads/regieVideo-master/patchers",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ModuleAnalyseAudio.maxpat",
-				"bootpath" : "~/Downloads/regieVideo-master/patchers",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "analyseSpectrale_10b.maxpat",
-				"bootpath" : "~/Downloads/regieVideo-master/patchers",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "analyseSpectrale_1b.maxpat",
-				"bootpath" : "~/Downloads/regieVideo-master/patchers",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filtreBande.maxpat",
-				"bootpath" : "~/Downloads/regieVideo-master/patchers",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "detectionEnveloppe.maxpat",
-				"bootpath" : "~/Downloads/regieVideo-master/patchers",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "eroica.aiff",
-				"bootpath" : "~/Downloads/regieVideo-master/media",
-				"type" : "AIFF",
+				"name" : "BANG.mp3",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/media",
+				"type" : "Mp3 ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CRACK.mp3",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/media",
+				"type" : "Mp3 ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GRRRRR.mp3",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/media",
+				"type" : "Mp3 ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "VRAI SMACK.mp3",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/media",
+				"type" : "Mp3 ",
 				"implicit" : 1
 			}
  ],
@@ -538,8 +817,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
