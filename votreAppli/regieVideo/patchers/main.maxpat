@@ -38,14 +38,38 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-13",
-					"linecount" : 2,
-					"maxclass" : "comment",
+					"id" : "obj-11",
+					"maxclass" : "toggle",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 300.5, 56.5, 150.0, 33.0 ],
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 595.5, 110.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "jit.pwindow",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 635.0, 213.0, 176.0, 122.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 564.0, 164.0, 160.0, 22.0 ],
 					"style" : "",
-					"text" : "les copier 4 fois (sur les effets videos des 4 img)"
+					"text" : "lecteurVideo.maxpat grrr.jpg"
 				}
 
 			}
@@ -74,21 +98,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"slurtime" : [ 0.0 ],
-									"pitchshift" : [ 1.0 ],
-									"timestretch" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ],
-									"play" : [ 0 ],
-									"basictuning" : [ 440 ],
-									"pitchcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
-									"mode" : [ "basic" ],
 									"originaltempo" : [ 120.0 ],
-									"formantcorrection" : [ 0 ]
+									"followglobaltempo" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"originallengthms" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"slurtime" : [ 0.0 ],
+									"basictuning" : [ 440 ],
+									"mode" : [ "basic" ],
+									"pitchshift" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ]
 								}
 
 							}
@@ -175,9 +199,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 156.0, 545.0, 204.0, 22.0 ],
+					"patching_rect" : [ 156.0, 545.0, 177.0, 22.0 ],
 					"style" : "",
-					"text" : "lecteurVideo.maxpat pow-500pix.jpg"
+					"text" : "lecteurVideo.maxpat smack.jpg"
 				}
 
 			}
@@ -199,9 +223,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 429.0, 278.0, 172.0, 22.0 ],
+					"patching_rect" : [ 429.0, 278.0, 173.0, 22.0 ],
 					"style" : "",
-					"text" : "lecteurVideo.maxpat pooof.jpg"
+					"text" : "lecteurVideo.maxpat bang.png"
 				}
 
 			}
@@ -223,9 +247,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 165.0, 330.0, 168.0, 22.0 ],
+					"patching_rect" : [ 165.0, 330.0, 171.0, 22.0 ],
 					"style" : "",
-					"text" : "lecteurVideo.maxpat grrrrr.jpg"
+					"text" : "lecteurVideo.maxpat crack.jpg"
 				}
 
 			}
@@ -250,6 +274,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -263,6 +296,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -304,26 +346,26 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-7::obj-4::obj-10::obj-19::obj-16" : [ "flonum[7]", "flonum[1]", 0 ],
-			"obj-7::obj-4::obj-6::obj-19::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
-			"obj-7::obj-4::obj-18::obj-19::obj-16" : [ "flonum[16]", "flonum[1]", 0 ],
-			"obj-7::obj-4::obj-24::obj-19::obj-13" : [ "flonum[11]", "flonum", 0 ],
-			"obj-7::obj-4::obj-10::obj-19::obj-13" : [ "flonum[6]", "flonum", 0 ],
-			"obj-7::obj-4::obj-2::obj-19::obj-13" : [ "flonum", "flonum", 0 ],
-			"obj-7::obj-4::obj-20::obj-19::obj-13" : [ "flonum[15]", "flonum", 0 ],
-			"obj-7::obj-4::obj-24::obj-19::obj-16" : [ "flonum[10]", "flonum[1]", 0 ],
-			"obj-7::obj-4::obj-8::obj-19::obj-16" : [ "flonum[5]", "flonum[1]", 0 ],
-			"obj-7::obj-4::obj-20::obj-19::obj-16" : [ "flonum[14]", "flonum[1]", 0 ],
-			"obj-7::obj-4::obj-14::obj-19::obj-16" : [ "flonum[9]", "flonum[1]", 0 ],
-			"obj-7::obj-4::obj-8::obj-19::obj-13" : [ "flonum[4]", "flonum", 0 ],
-			"obj-7::obj-4::obj-2::obj-19::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
 			"obj-7::obj-4::obj-16::obj-19::obj-13" : [ "flonum[18]", "flonum", 0 ],
-			"obj-7::obj-4::obj-22::obj-19::obj-16" : [ "flonum[12]", "flonum[1]", 0 ],
-			"obj-7::obj-4::obj-14::obj-19::obj-13" : [ "flonum[8]", "flonum", 0 ],
-			"obj-7::obj-4::obj-6::obj-19::obj-13" : [ "flonum[3]", "flonum", 0 ],
+			"obj-7::obj-4::obj-22::obj-19::obj-13" : [ "flonum[13]", "flonum", 0 ],
+			"obj-7::obj-4::obj-14::obj-19::obj-16" : [ "flonum[9]", "flonum[1]", 0 ],
+			"obj-7::obj-4::obj-6::obj-19::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
+			"obj-7::obj-4::obj-2::obj-19::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
+			"obj-7::obj-4::obj-2::obj-19::obj-13" : [ "flonum", "flonum", 0 ],
 			"obj-7::obj-4::obj-16::obj-19::obj-16" : [ "flonum[19]", "flonum[1]", 0 ],
+			"obj-7::obj-4::obj-18::obj-19::obj-16" : [ "flonum[16]", "flonum[1]", 0 ],
+			"obj-7::obj-4::obj-22::obj-19::obj-16" : [ "flonum[12]", "flonum[1]", 0 ],
+			"obj-7::obj-4::obj-10::obj-19::obj-13" : [ "flonum[6]", "flonum", 0 ],
+			"obj-7::obj-4::obj-6::obj-19::obj-13" : [ "flonum[3]", "flonum", 0 ],
 			"obj-7::obj-4::obj-18::obj-19::obj-13" : [ "flonum[17]", "flonum", 0 ],
-			"obj-7::obj-4::obj-22::obj-19::obj-13" : [ "flonum[13]", "flonum", 0 ]
+			"obj-7::obj-4::obj-24::obj-19::obj-16" : [ "flonum[10]", "flonum[1]", 0 ],
+			"obj-7::obj-4::obj-10::obj-19::obj-16" : [ "flonum[7]", "flonum[1]", 0 ],
+			"obj-7::obj-4::obj-20::obj-19::obj-16" : [ "flonum[14]", "flonum[1]", 0 ],
+			"obj-7::obj-4::obj-24::obj-19::obj-13" : [ "flonum[11]", "flonum", 0 ],
+			"obj-7::obj-4::obj-8::obj-19::obj-13" : [ "flonum[4]", "flonum", 0 ],
+			"obj-7::obj-4::obj-20::obj-19::obj-13" : [ "flonum[15]", "flonum", 0 ],
+			"obj-7::obj-4::obj-14::obj-19::obj-13" : [ "flonum[8]", "flonum", 0 ],
+			"obj-7::obj-4::obj-8::obj-19::obj-16" : [ "flonum[5]", "flonum[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -472,8 +514,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
