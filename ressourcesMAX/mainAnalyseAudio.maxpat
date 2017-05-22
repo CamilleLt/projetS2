@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1372.0, 711.0 ],
+		"rect" : [ 638.0, 165.0, 1372.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 869.875, 445.5, 50.0, 22.0 ],
-					"presentation_rect" : [ 774.875, 460.5, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -59,7 +58,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 824.0, 445.5, 29.5, 22.0 ],
-					"presentation_rect" : [ 729.0, 460.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "*~"
 				}
@@ -74,7 +72,6 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 881.875, 325.0, 24.0, 96.0 ],
-					"presentation_rect" : [ 786.875, 340.0, 0.0, 0.0 ],
 					"size" : 500.0,
 					"style" : ""
 				}
@@ -219,21 +216,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"slurtime" : [ 0.0 ],
-									"mode" : [ "basic" ],
-									"formant" : [ 1.0 ],
-									"basictuning" : [ 440 ],
-									"quality" : [ "basic" ],
-									"speed" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
 									"followglobaltempo" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
-									"play" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"pitchcorrection" : [ 0 ],
-									"formantcorrection" : [ 0 ],
 									"originallengthms" : [ 0.0 ],
-									"timestretch" : [ 0 ]
+									"slurtime" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"timestretch" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"speed" : [ 1.0 ],
+									"play" : [ 0 ],
+									"basictuning" : [ 440 ],
+									"pitchcorrection" : [ 0 ],
+									"quality" : [ "basic" ],
+									"mode" : [ "basic" ],
+									"originaltempo" : [ 120.0 ],
+									"formantcorrection" : [ 0 ]
 								}
 
 							}
@@ -259,7 +256,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 386.375, 250.0, 265.0, 386.0 ],
+					"patching_rect" : [ 391.375, 250.0, 265.0, 386.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -300,21 +297,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"slurtime" : [ 0.0 ],
-									"mode" : [ "basic" ],
-									"formant" : [ 1.0 ],
-									"basictuning" : [ 440 ],
-									"quality" : [ "basic" ],
-									"speed" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
 									"followglobaltempo" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
-									"play" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"pitchcorrection" : [ 0 ],
-									"formantcorrection" : [ 0 ],
 									"originallengthms" : [ 0.0 ],
-									"timestretch" : [ 0 ]
+									"slurtime" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"timestretch" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"speed" : [ 1.0 ],
+									"play" : [ 0 ],
+									"basictuning" : [ 440 ],
+									"pitchcorrection" : [ 0 ],
+									"quality" : [ "basic" ],
+									"mode" : [ "basic" ],
+									"originaltempo" : [ 120.0 ],
+									"formantcorrection" : [ 0 ]
 								}
 
 							}
@@ -375,21 +372,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"slurtime" : [ 0.0 ],
-									"mode" : [ "basic" ],
-									"formant" : [ 1.0 ],
-									"basictuning" : [ 440 ],
-									"quality" : [ "basic" ],
-									"speed" : [ 1.0 ],
-									"originaltempo" : [ 120.0 ],
 									"followglobaltempo" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
-									"play" : [ 0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"pitchcorrection" : [ 0 ],
-									"formantcorrection" : [ 0 ],
 									"originallengthms" : [ 0.0 ],
-									"timestretch" : [ 0 ]
+									"slurtime" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"timestretch" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"speed" : [ 1.0 ],
+									"play" : [ 0 ],
+									"basictuning" : [ 440 ],
+									"pitchcorrection" : [ 0 ],
+									"quality" : [ "basic" ],
+									"mode" : [ "basic" ],
+									"originaltempo" : [ 120.0 ],
+									"formantcorrection" : [ 0 ]
 								}
 
 							}
@@ -755,41 +752,41 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-10::obj-19::obj-13" : [ "flonum[15]", "flonum", 0 ],
-			"obj-1::obj-22::obj-19::obj-16" : [ "flonum[8]", "flonum[1]", 0 ],
-			"obj-1::obj-18::obj-19::obj-13" : [ "flonum[5]", "flonum", 0 ],
-			"obj-1::obj-6::obj-19::obj-13" : [ "flonum[18]", "flonum", 0 ],
-			"obj-1::obj-14::obj-19::obj-13" : [ "flonum[13]", "flonum", 0 ],
-			"obj-1::obj-22::obj-19::obj-13" : [ "flonum[9]", "flonum", 0 ],
-			"obj-1::obj-16::obj-19::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
-			"obj-35::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-1::obj-6::obj-19::obj-16" : [ "flonum[22]", "flonum[1]", 0 ],
-			"obj-1::obj-8::obj-19::obj-16" : [ "flonum[16]", "flonum[1]", 0 ],
-			"obj-1::obj-14::obj-19::obj-16" : [ "flonum[12]", "flonum[1]", 0 ],
-			"obj-1::obj-20::obj-19::obj-16" : [ "flonum[6]", "flonum[1]", 0 ],
-			"obj-1::obj-16::obj-19::obj-13" : [ "flonum[3]", "flonum", 0 ],
-			"obj-68::obj-19::obj-16" : [ "flonum[23]", "flonum[1]", 0 ],
-			"obj-1::obj-2::obj-19::obj-13" : [ "flonum[21]", "flonum", 0 ],
-			"obj-1::obj-8::obj-19::obj-13" : [ "flonum[17]", "flonum", 0 ],
-			"obj-1::obj-24::obj-19::obj-13" : [ "flonum[11]", "flonum", 0 ],
 			"obj-1::obj-20::obj-19::obj-13" : [ "flonum[7]", "flonum", 0 ],
-			"obj-35::obj-13" : [ "flonum", "flonum", 0 ],
+			"obj-1::obj-16::obj-19::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
 			"obj-1::obj-2::obj-19::obj-16" : [ "flonum[20]", "flonum[1]", 0 ],
-			"obj-1::obj-10::obj-19::obj-16" : [ "flonum[14]", "flonum[1]", 0 ],
+			"obj-1::obj-8::obj-19::obj-16" : [ "flonum[16]", "flonum[1]", 0 ],
+			"obj-1::obj-24::obj-19::obj-13" : [ "flonum[11]", "flonum", 0 ],
+			"obj-1::obj-20::obj-19::obj-16" : [ "flonum[6]", "flonum[1]", 0 ],
+			"obj-35::obj-13" : [ "flonum", "flonum", 0 ],
+			"obj-1::obj-2::obj-19::obj-13" : [ "flonum[21]", "flonum", 0 ],
+			"obj-1::obj-10::obj-19::obj-13" : [ "flonum[15]", "flonum", 0 ],
 			"obj-1::obj-24::obj-19::obj-16" : [ "flonum[10]", "flonum[1]", 0 ],
+			"obj-1::obj-18::obj-19::obj-13" : [ "flonum[5]", "flonum", 0 ],
+			"obj-1::obj-6::obj-19::obj-16" : [ "flonum[22]", "flonum[1]", 0 ],
+			"obj-1::obj-10::obj-19::obj-16" : [ "flonum[14]", "flonum[1]", 0 ],
+			"obj-1::obj-22::obj-19::obj-13" : [ "flonum[9]", "flonum", 0 ],
 			"obj-1::obj-18::obj-19::obj-16" : [ "flonum[4]", "flonum[1]", 0 ],
-			"obj-68::obj-19::obj-13" : [ "flonum[19]", "flonum", 0 ]
+			"obj-35::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
+			"obj-68::obj-19::obj-16" : [ "flonum[23]", "flonum[1]", 0 ],
+			"obj-1::obj-6::obj-19::obj-13" : [ "flonum[18]", "flonum", 0 ],
+			"obj-1::obj-14::obj-19::obj-16" : [ "flonum[12]", "flonum[1]", 0 ],
+			"obj-1::obj-22::obj-19::obj-16" : [ "flonum[8]", "flonum[1]", 0 ],
+			"obj-1::obj-16::obj-19::obj-13" : [ "flonum[3]", "flonum", 0 ],
+			"obj-68::obj-19::obj-13" : [ "flonum[19]", "flonum", 0 ],
+			"obj-1::obj-8::obj-19::obj-13" : [ "flonum[17]", "flonum", 0 ],
+			"obj-1::obj-14::obj-19::obj-13" : [ "flonum[13]", "flonum", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pitchDetection.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/ressourcesMAX",
+				"bootpath" : "~/Documents/projetS2/ressourcesMAX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "detectionEnveloppe.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/ressourcesMAX",
+				"bootpath" : "~/Documents/projetS2/ressourcesMAX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -807,19 +804,19 @@
 			}
 , 			{
 				"name" : "analyseSpectrale_1b.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/ressourcesMAX",
+				"bootpath" : "~/Documents/projetS2/ressourcesMAX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filtreBande.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/ressourcesMAX",
+				"bootpath" : "~/Documents/projetS2/ressourcesMAX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "analyseSpectrale_10b.maxpat",
-				"bootpath" : "~/Documents/GitKraken/projetS2/ressourcesMAX",
+				"bootpath" : "~/Documents/projetS2/ressourcesMAX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
