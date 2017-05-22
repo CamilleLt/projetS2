@@ -2,7 +2,7 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -716665583,
+	"modificationdate" : -716663929,
 	"viewrect" : [ 9.0, 64.0, 222.0, 891.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -16,12 +16,17 @@
 				"toplevel" : 1
 			}
 ,
-			"effetVideo4.maxpat" : 			{
+			"moduleReceptionAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"lecteurVideo.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"effetVideo4.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -32,6 +37,11 @@
 			}
 ,
 			"detectionEnveloppe.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ModuleAnalyseAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -70,6 +80,26 @@
 			}
 ,
 			"pow-500pix.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"bang.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"crack.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"grrr.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"smack.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
