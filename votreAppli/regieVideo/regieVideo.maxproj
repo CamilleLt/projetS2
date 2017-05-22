@@ -2,7 +2,7 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -716662875,
+	"modificationdate" : -716660969,
 	"viewrect" : [ 1246.0, 343.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -46,6 +46,16 @@
 				"local" : 1
 			}
 ,
+			"MAA.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"pitchDetection.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"analyseSpectrale.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -64,6 +74,21 @@
 				"local" : 1
 			}
 ,
+			"VRAI_SMACK.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"GRRRRR.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"CRACK.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
 			"grrr.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -74,22 +99,7 @@
 				"local" : 1
 			}
 ,
-			"VRAI SMACK.mp3" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
-,
-			"GRRRRR.mp3" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
-,
-			"CRACK.mp3" : 			{
-				"kind" : "audiofile",
-				"local" : 1
-			}
-,
-			"BANG.mp3" : 			{
+			"BANG.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}

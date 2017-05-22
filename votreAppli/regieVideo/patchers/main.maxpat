@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 674.0, 108.0, 865.0, 761.0 ],
+		"rect" : [ 231.0, 126.0, 865.0, 761.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,183 +38,183 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-53",
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "BANG.wav",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"followglobaltempo" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"originallengthms" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"slurtime" : [ 0.0 ],
+									"basictuning" : [ 440 ],
+									"mode" : [ "basic" ],
+									"pitchshift" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-28",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 465.5, 159.0, 150.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "CRACK.wav",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"followglobaltempo" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"originallengthms" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"slurtime" : [ 0.0 ],
+									"basictuning" : [ 440 ],
+									"mode" : [ "basic" ],
+									"pitchshift" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-26",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 256.0, 159.0, 150.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "GRRRRR.wav",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"followglobaltempo" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"originallengthms" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"slurtime" : [ 0.0 ],
+									"basictuning" : [ 440 ],
+									"mode" : [ "basic" ],
+									"pitchshift" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-24",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 660.0, 188.0, 150.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"filename" : "VRAI_SMACK.wav",
+								"filekind" : "audiofile",
+								"loop" : 0,
+								"content_state" : 								{
+									"originaltempo" : [ 120.0 ],
+									"followglobaltempo" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"originallengthms" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"slurtime" : [ 0.0 ],
+									"basictuning" : [ 440 ],
+									"mode" : [ "basic" ],
+									"pitchshift" : [ 1.0 ],
+									"play" : [ 0 ],
+									"pitchcorrection" : [ 0 ],
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-20",
+					"maxclass" : "playlist~",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"patching_rect" : [ 51.0, 154.0, 150.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 665.0, 229.0, 158.0, 22.0 ],
+					"patching_rect" : [ 283.0, 223.0, 100.0, 22.0 ],
 					"style" : "",
-					"text" : "detectionEnveloppe.maxpat"
+					"text" : "MAA.maxpat"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-52",
+					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 269.0, 223.0, 158.0, 22.0 ],
+					"patching_rect" : [ 665.0, 237.0, 100.0, 22.0 ],
 					"style" : "",
-					"text" : "detectionEnveloppe.maxpat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "VRAI SMACK.mp3",
-								"filekind" : "audiofile",
-								"loop" : 0,
-								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
-									"followglobaltempo" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"formantcorrection" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"originallengthms" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"slurtime" : [ 0.0 ],
-									"basictuning" : [ 440 ],
-									"mode" : [ "basic" ],
-									"pitchshift" : [ 1.0 ],
-									"play" : [ 0 ],
-									"pitchcorrection" : [ 0 ],
-									"timestretch" : [ 0 ],
-									"quality" : [ "basic" ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-51",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 47.0, 154.0, 150.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "GRRRRR.mp3",
-								"filekind" : "audiofile",
-								"loop" : 0,
-								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
-									"followglobaltempo" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"formantcorrection" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"originallengthms" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"slurtime" : [ 0.0 ],
-									"basictuning" : [ 440 ],
-									"mode" : [ "basic" ],
-									"pitchshift" : [ 1.0 ],
-									"play" : [ 0 ],
-									"pitchcorrection" : [ 0 ],
-									"timestretch" : [ 0 ],
-									"quality" : [ "basic" ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-49",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 665.0, 166.0, 150.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "CRACK.mp3",
-								"filekind" : "audiofile",
-								"loop" : 0,
-								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
-									"followglobaltempo" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"formantcorrection" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"originallengthms" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"slurtime" : [ 0.0 ],
-									"basictuning" : [ 440 ],
-									"mode" : [ "basic" ],
-									"pitchshift" : [ 1.0 ],
-									"play" : [ 0 ],
-									"pitchcorrection" : [ 0 ],
-									"timestretch" : [ 0 ],
-									"quality" : [ "basic" ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-47",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 269.0, 154.0, 150.0, 30.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"data" : 					{
-						"clips" : [ 							{
-								"filename" : "BANG.mp3",
-								"filekind" : "audiofile",
-								"loop" : 0,
-								"content_state" : 								{
-									"originaltempo" : [ 120.0 ],
-									"followglobaltempo" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"formantcorrection" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"originallengthms" : [ 0.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"slurtime" : [ 0.0 ],
-									"basictuning" : [ 440 ],
-									"mode" : [ "basic" ],
-									"pitchshift" : [ 1.0 ],
-									"play" : [ 0 ],
-									"pitchcorrection" : [ 0 ],
-									"timestretch" : [ 0 ],
-									"quality" : [ "basic" ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-45",
-					"maxclass" : "playlist~",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"patching_rect" : [ 469.0, 166.0, 150.0, 30.0 ],
-					"style" : ""
+					"text" : "MAA.maxpat"
 				}
 
 			}
@@ -499,10 +499,37 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -517,10 +544,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-4", 0 ]
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}
@@ -529,52 +565,16 @@
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-45", 0 ]
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-52", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-47", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-51", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-52", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-53", 0 ]
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -612,7 +612,6 @@
 			"obj-7::obj-4::obj-22::obj-19::obj-13" : [ "flonum[13]", "flonum", 0 ],
 			"obj-21::obj-4::obj-24::obj-19::obj-13" : [ "flonum[49]", "flonum", 0 ],
 			"obj-7::obj-4::obj-14::obj-19::obj-16" : [ "flonum[9]", "flonum[1]", 0 ],
-			"obj-53::obj-13" : [ "flonum[74]", "flonum", 0 ],
 			"obj-7::obj-4::obj-6::obj-19::obj-16" : [ "flonum[2]", "flonum[1]", 0 ],
 			"obj-21::obj-4::obj-8::obj-19::obj-16" : [ "flonum[54]", "flonum[1]", 0 ],
 			"obj-7::obj-4::obj-2::obj-19::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
@@ -627,16 +626,13 @@
 			"obj-21::obj-4::obj-10::obj-19::obj-16" : [ "flonum[52]", "flonum[1]", 0 ],
 			"obj-7::obj-4::obj-6::obj-19::obj-13" : [ "flonum[3]", "flonum", 0 ],
 			"obj-21::obj-4::obj-6::obj-19::obj-13" : [ "flonum[57]", "flonum", 0 ],
-			"obj-52::obj-16" : [ "flonum[80]", "flonum[1]", 0 ],
 			"obj-21::obj-4::obj-18::obj-19::obj-16" : [ "flonum[42]", "flonum[1]", 0 ],
 			"obj-7::obj-4::obj-18::obj-19::obj-13" : [ "flonum[17]", "flonum", 0 ],
 			"obj-7::obj-4::obj-24::obj-19::obj-16" : [ "flonum[10]", "flonum[1]", 0 ],
 			"obj-21::obj-4::obj-14::obj-19::obj-16" : [ "flonum[50]", "flonum[1]", 0 ],
 			"obj-7::obj-4::obj-10::obj-19::obj-16" : [ "flonum[7]", "flonum[1]", 0 ],
 			"obj-21::obj-4::obj-8::obj-19::obj-13" : [ "flonum[55]", "flonum", 0 ],
-			"obj-52::obj-13" : [ "flonum[81]", "flonum", 0 ],
 			"obj-21::obj-4::obj-16::obj-19::obj-16" : [ "flonum[40]", "flonum[1]", 0 ],
-			"obj-53::obj-16" : [ "flonum[63]", "flonum[1]", 0 ],
 			"obj-21::obj-4::obj-20::obj-19::obj-13" : [ "flonum[45]", "flonum", 0 ],
 			"obj-7::obj-4::obj-20::obj-19::obj-16" : [ "flonum[14]", "flonum[1]", 0 ],
 			"obj-21::obj-4::obj-24::obj-19::obj-16" : [ "flonum[48]", "flonum[1]", 0 ],
@@ -690,27 +686,39 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "BANG.mp3",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/media",
-				"type" : "Mp3 ",
+				"name" : "MAA.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "CRACK.mp3",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/media",
-				"type" : "Mp3 ",
+				"name" : "pitchDetection.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "GRRRRR.mp3",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/media",
-				"type" : "Mp3 ",
+				"name" : "VRAI_SMACK.wav",
+				"bootpath" : "~/Documents/sons",
+				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "VRAI SMACK.mp3",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/media",
-				"type" : "Mp3 ",
+				"name" : "GRRRRR.wav",
+				"bootpath" : "~/Documents/sons",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CRACK.wav",
+				"bootpath" : "~/Documents/sons",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "BANG.wav",
+				"bootpath" : "~/Documents/sons",
+				"type" : "WAVE",
 				"implicit" : 1
 			}
  ],
