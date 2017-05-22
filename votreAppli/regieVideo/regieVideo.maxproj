@@ -2,8 +2,8 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -716659889,
-	"viewrect" : [ 1246.0, 343.0, 300.0, 500.0 ],
+	"modificationdate" : -716658682,
+	"viewrect" : [ 1316.0, 231.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -46,7 +46,17 @@
 				"local" : 1
 			}
 ,
-			"MAA.maxpat" : 			{
+			"MAA3.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"MAA4.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"mixageVideo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -57,21 +67,6 @@
 			}
 ,
 			"analyseSpectrale.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"mixageVideo.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"MAA3.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"MAA4.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
