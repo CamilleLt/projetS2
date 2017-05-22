@@ -2,7 +2,7 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -717002251,
+	"modificationdate" : -716665521,
 	"viewrect" : [ 61.0, 137.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -16,11 +16,6 @@
 				"toplevel" : 1
 			}
 ,
-			"filtreBande.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"lecteurVideo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -31,17 +26,7 @@
 				"local" : 1
 			}
 ,
-			"detectionEnveloppe.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"analyseSpectrale_10b.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"analyseSpectrale.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -50,21 +35,41 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"filtreBande.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"detectionEnveloppe.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"analyseSpectrale.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"media" : 		{
-			"grrrrr.jpg" : 			{
+			"bang.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
-			"pooof.jpg" : 			{
+			"crack.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
-			"pow-500pix.jpg" : 			{
+			"grrr.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"smack.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
