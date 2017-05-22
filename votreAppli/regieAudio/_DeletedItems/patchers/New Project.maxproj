@@ -2,8 +2,8 @@
 	"name" : "New Project",
 	"version" : 1,
 	"creationdate" : -721234311,
-	"modificationdate" : -717005861,
-	"viewrect" : [ 1264.0, 284.0, 300.0, 500.0 ],
+	"modificationdate" : -716663452,
+	"viewrect" : [ 72.0, 216.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -13,22 +13,22 @@
 			"main.maxpat" : 			{
 				"kind" : "helpfile",
 				"local" : 1,
-				"toplevel" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Volumes/TOSHIBA/",
-					"projectrelativepath" : "../../../../../../../Volumes/TOSHIBA"
-				}
-
+				"toplevel" : 1
+			}
+,
+			"mainSyntheseAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"syntheseFM.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"envoiAudioReseau.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Desktop",
-					"projectrelativepath" : "../../../../../Desktop"
-				}
-
+				"local" : 1
 			}
 ,
 			"splitAccord.maxpat" : 			{
@@ -51,12 +51,7 @@
 		"media" : 		{
 			"dinosaure.wav" : 			{
 				"kind" : "audiofile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Volumes/TOSHIBA/projet signal/other/Ressource-20170330",
-					"projectrelativepath" : "../../../../../../../Volumes/TOSHIBA/projet signal/other/Ressource-20170330"
-				}
-
+				"local" : 1
 			}
 
 		}
