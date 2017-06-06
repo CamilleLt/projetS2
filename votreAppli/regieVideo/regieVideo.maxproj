@@ -2,8 +2,8 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -716656431,
-	"viewrect" : [ 0.0, 169.0, 365.0, 650.0 ],
+	"modificationdate" : -715350620,
+	"viewrect" : [ 143.0, 117.0, 365.0, 650.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"receptionOSCAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"lecteurVideo.maxpat" : 			{
@@ -37,6 +42,11 @@
 			}
 ,
 			"detectionEnveloppe.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"analyseSpectrale_10b.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
