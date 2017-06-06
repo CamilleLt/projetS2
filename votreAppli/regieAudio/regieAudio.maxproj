@@ -2,7 +2,7 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -717793622,
+	"modificationdate" : -715351714,
 	"viewrect" : [ 393.0, 132.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -20,6 +20,30 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"effetAudio1.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"effetAudio2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"transposition.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"pedaleWahWah.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"media" : 		{
 
 		}
 
