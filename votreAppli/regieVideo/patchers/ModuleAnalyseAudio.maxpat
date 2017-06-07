@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 680.0, 183.0, 960.0, 597.0 ],
+		"rect" : [ 124.0, 97.0, 960.0, 597.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -68,7 +68,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 11,
-					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "" ],
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 391.875, 136.0, 170.0, 22.0 ],
 					"style" : "",
 					"text" : "analyseSpectrale_10b.maxpat"
@@ -124,7 +124,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 429.5, 181.0, 24.0, 96.0 ],
+					"patching_rect" : [ 429.5, 174.0, 24.0, 96.0 ],
 					"size" : 500.0,
 					"style" : ""
 				}
