@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -715351714,
-	"viewrect" : [ 393.0, 132.0, 300.0, 500.0 ],
+	"modificationdate" : -715285373,
+	"viewrect" : [ 45.0, 372.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -21,17 +21,17 @@
 				"local" : 1
 			}
 ,
-			"effetAudio1.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"effetAudio2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"transposition.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"effetAudio1.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -44,6 +44,25 @@
 		}
 ,
 		"media" : 		{
+			"VRAI_SMACK.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Downloads",
+					"projectrelativepath" : "../../../../Downloads"
+				}
+
+			}
+,
+			"BANG.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Downloads",
+					"projectrelativepath" : "../../../../Downloads"
+				}
+
+			}
 
 		}
 
