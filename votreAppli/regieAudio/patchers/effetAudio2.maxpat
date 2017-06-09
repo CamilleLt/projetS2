@@ -220,7 +220,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1780.0, 613.5, 46.5, 22.0 ],
 					"style" : "",
 					"text" : "osc"
@@ -248,20 +248,20 @@
 								"loop" : 1,
 								"content_state" : 								{
 									"originaltempo" : [ 120.0 ],
-									"quality" : [ "basic" ],
-									"basictuning" : [ 440 ],
-									"play" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
-									"followglobaltempo" : [ 0 ],
 									"pitchcorrection" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"formantcorrection" : [ 0 ],
-									"timestretch" : [ 0 ],
-									"mode" : [ "basic" ],
-									"originallengthms" : [ 0.0 ],
 									"slurtime" : [ 0.0 ],
+									"quality" : [ "basic" ],
+									"mode" : [ "basic" ],
+									"speed" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"formant" : [ 1.0 ],
 									"originallength" : [ 0.0, "ticks" ],
-									"speed" : [ 1.0 ]
+									"play" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"timestretch" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
+									"originallengthms" : [ 0.0 ]
 								}
 
 							}
@@ -337,9 +337,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 233.0, 227.5, 79.0, 22.0 ],
+					"patching_rect" : [ 233.0, 227.5, 122.0, 22.0 ],
 					"style" : "",
-					"text" : "egaliseur_5b",
+					"text" : "egaliseur_5b.maxpat",
 					"varname" : "egaliseur_5b"
 				}
 
