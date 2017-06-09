@@ -123,7 +123,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 561.0, 97.0, 122.0, 22.0 ],
 					"style" : "",
-					"text" : "mixageAudio.maxpat"
+					"text" : "effetAudio1.maxpat"
 				}
 
 			}
