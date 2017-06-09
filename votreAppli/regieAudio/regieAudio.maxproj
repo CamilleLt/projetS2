@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -716657663,
-	"modificationdate" : -716657512,
-	"viewrect" : [ 155.0, 137.0, 300.0, 500.0 ],
+	"modificationdate" : -715127309,
+	"viewrect" : [ 8.0, 137.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"egaliseur_5b.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"simpleFM~.maxpat" : 			{
@@ -36,6 +41,11 @@
 				"local" : 1
 			}
 ,
+			"receptionOSC.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"mixageAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -45,15 +55,14 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-,
-			"receptionOSC.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
 
 		}
 ,
-		"other" : 		{
+		"media" : 		{
+
+		}
+,
+		"externals" : 		{
 
 		}
 
